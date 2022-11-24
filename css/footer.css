@@ -1,0 +1,42 @@
+.f-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.detail-form{
+    display: flex;
+}
+.detail-form button{
+    width: 50px;
+    border: none;
+}
+.detail-form button:hover{
+    background-color: orangered;
+}
+
+.f-menu a{
+    text-decoration: none;
+    color: #fff;
+}
+.f-menu a:hover{
+    color: orangered;
+    margin-left: 5px;
+    transition: 0.4s all;
+}
+#footer ul{
+    list-style-type: none;
+}
+.social-media-icon{
+    padding-top: 10px;
+    padding-left: 0;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 400px;
+    background-image: url(//bizweb.dktcdn.net/100/365/442/themes/737549/assets/bg-f2.jpg?1656562257403) ;
+    background-color: #6d6d70;
+    color: #fff;
+}
