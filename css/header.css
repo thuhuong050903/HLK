@@ -1,0 +1,126 @@
+#header{
+    display: flex;
+    width: 100%;
+    background-image: url(//bizweb.dktcdn.net/100/365/442/themes/737549/assets/bg-head.png?1664720334923);
+    background-color: rgb(109, 109, 112);
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+
+}
+
+.container .column{
+    padding: 10px;
+}
+
+.header-title{
+    color: #fff;
+    font-weight: bold;
+}
+
+/*dropdown*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    width: 270px;
+    
+}
+.dropdown ul{
+    list-style-type: none;
+}
+.dropdown-menu .dropdown-item:hover {
+    color: orangered;
+}
+
+.dropdown-menu .dropdow-menu .dropdown-item:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.dropdown-menu {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+    width: 5px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: orangered;
+}
+
+.dropdow-menu .sub-menu {
+    display: none;
+}
+
+.dropdow-menu .dropdown-item li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 30%;
+
+
+}
+/*search*/
+.search-box {
+    position: relative;
+    background: #fff;
+    height: 41px;
+    width: 500px;
+    border: 1px solid #f26522;
+}
+
+.search-box input {
+    background: none;
+    border: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 18px;
+    line-height: 30px;
+    width: 0px;
+    transition: all 0.9s;
+}
+
+
+.search-box:hover input {
+    width: 400px;
+    padding: 0 6px;
+}
+
+.search-button {
+    float: right;
+    width: 50px;
+    height: 40px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    background-color: #f26522;
+}
+/*giỏ hàng*/
+.header-right {
+    display: flex;
+    width: 250px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+}
+.header-right i{
+    font-size: 30px;
+}
+.header-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-right a:hover {
+    color: #f26522;
+    font-weight: bold;
+}
